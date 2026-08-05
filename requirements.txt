@@ -9,3 +9,6 @@ chromadb
 tiktoken 
 pandas
 numpy
+openai
+clients
+langchain-openai
