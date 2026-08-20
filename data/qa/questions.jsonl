@@ -1,0 +1,50 @@
+{"q_idx": 0, "question": "What are the parameters needed to configure the SIP Proxy?", "section": 0, "style": "standard", "source": ""}
+{"q_idx": 1, "question": "What is the purpose of Integration Designer™?", "section": 1, "style": "standard", "source": ""}
+{"q_idx": 2, "question": "What is the range for the x-coordinate in the EndPoint section?", "section": 2, "style": "standard", "source": ""}
+{"q_idx": 3, "question": "What does the 'model_name' parameter return?", "section": 3, "style": "standard", "source": ""}
+{"q_idx": 4, "question": "What is the first step to start up the projector?", "section": 4, "style": "standard", "source": ""}
+{"q_idx": 5, "question": "What happens if the attribute in section 10.0 is present in the configuration?", "section": 5, "style": "standard", "source": ""}
+{"q_idx": 6, "question": "What command data should be sent to turn the projector power OFF?", "section": 6, "style": "standard", "source": ""}
+{"q_idx": 7, "question": "What is the purpose of the command with the current state 'Power-ON'?", "section": 7, "style": "standard", "source": ""}
+{"q_idx": 8, "question": "What does a value of '0' indicate in the AudioOutTypeInfoList?", "section": 8, "style": "standard", "source": ""}
+{"q_idx": 9, "question": "How do I use dynamic naming in Integration Designer?", "section": 9, "style": "standard", "source": ""}
+{"q_idx": 10, "question": "What values can the 'role' parameter return in the API Specification?", "section": 10, "style": "standard", "source": ""}
+{"q_idx": 11, "question": "What does the parameter 'FocusModeNum' configure in the audio output settings?", "section": 11, "style": "standard", "source": ""}
+{"q_idx": 12, "question": "What types of response codes can be returned in a response message?", "section": 12, "style": "standard", "source": ""}
+{"q_idx": 13, "question": "What does the 'IsSupportCfg' parameter indicate in the AlarmCapabilities Json Block?", "section": 13, "style": "standard", "source": ""}
+{"q_idx": 14, "question": "What information does the 'DeviceInfo' Json Block contain?", "section": 14, "style": "standard", "source": ""}
+{"q_idx": 15, "question": "What is the purpose of the setBalance endpoint?", "section": 15, "style": "standard", "source": ""}
+{"q_idx": 16, "question": "What does the toggleShuffle command do?", "section": 16, "style": "standard", "source": ""}
+{"q_idx": 17, "question": "How do I check device compatibility before creating a MusicCast group?", "section": 17, "style": "standard", "source": ""}
+{"q_idx": 18, "question": "What is the maximum number of members that can be added, modified, or deleted in the PersonInfoList at a time?", "section": 0, "style": "standard", "source": ""}
+{"q_idx": 19, "question": "What does the AlarmLevel parameter represent in the AlarmInfo JSON block?", "section": 1, "style": "standard", "source": ""}
+{"q_idx": 20, "question": "What is the purpose of the Crypto.RSAGenerateKey method?", "section": 2, "style": "standard", "source": ""}
+{"q_idx": 21, "question": "What is the required parameter when updating or deleting a subscription in the /LAPI/V1.0/System/Event/Subscription endpoint?", "section": 1, "style": "standard", "source": ""}
+{"q_idx": 22, "question": "What values can be specified for Zone ID in the getNameText_AVR API?", "section": 2, "style": "standard", "source": ""}
+{"q_idx": 23, "question": "What does the json parameter in the MDNS.OnDiscover function represent?", "section": 3, "style": "standard", "source": ""}
+{"q_idx": 24, "question": "What does the System.Print(msg) function do?", "section": 24, "style": "standard", "source": ""}
+{"q_idx": 25, "question": "What is the response for turning the Power ON?", "section": 25, "style": "standard", "source": ""}
+{"q_idx": 26, "question": "What are the options for Background Color in the settings?", "section": 26, "style": "standard", "source": ""}
+{"q_idx": 27, "question": "What does the 'auto_sync' parameter return in the getSettings API for Clock?", "section": 27, "style": "standard", "source": ""}
+{"q_idx": 28, "question": "What information does the getPresetInfo API return regarding presets?", "section": 28, "style": "standard", "source": ""}
+{"q_idx": 29, "question": "How does the sourceid attribute affect autoprogramming in multi-instance drivers?", "section": 29, "style": "standard", "source": ""}
+{"q_idx": 30, "question": "How do I disconnect a Bluetooth device using the API?", "section": 30, "style": "standard", "source": ""}
+{"q_idx": 31, "question": "What should I do to ensure safe operation of the projector?", "section": 31, "style": "standard", "source": ""}
+{"q_idx": 32, "question": "What does the bluetooth_info_updated parameter indicate in the system object?", "section": 32, "style": "standard", "source": ""}
+{"q_idx": 33, "question": "What happens when the projector receives a command while it is not powered on?", "section": 33, "style": "standard", "source": ""}
+{"q_idx": 34, "question": "What is the command endpoint to get stereo pair information for Device A?", "section": 34, "style": "standard", "source": ""}
+{"q_idx": 35, "question": "What does the GetConfiguration query return?", "section": 35, "style": "standard", "source": ""}
+{"q_idx": 36, "question": "How do you open the SystemVarsList for modification?", "section": 36, "style": "standard", "source": ""}
+{"q_idx": 37, "question": "What is the purpose of the SystemVarsList.Insert(data) method?", "section": 36, "style": "standard", "source": ""}
+{"q_idx": 38, "question": "What should I be cautious about when using the SystemVarsList.InsertWithImage(data, url) function?", "section": 36, "style": "standard", "source": ""}
+{"q_idx": 39, "question": "What parameters are required when object parameters are present in the EndPoint section?", "section": 2, "style": "standard", "source": ""}
+{"q_idx": 40, "question": "What is the purpose of the Integration Designer™ software?", "section": 1, "style": "standard", "source": ""}
+{"q_idx": 41, "question": "What does the 'Enabled' parameter indicate in the DetectTargetInfo Json Block?", "section": 2, "style": "standard", "source": ""}
+{"q_idx": 42, "question": "What does the model_name parameter return?", "section": 3, "style": "standard", "source": ""}
+{"q_idx": 43, "question": "What are the steps to start up the projector?", "section": 4, "style": "standard", "source": ""}
+{"q_idx": 44, "question": "What does the name attribute represent in the configuration?", "section": 5, "style": "standard", "source": ""}
+{"q_idx": 45, "question": "How do I turn the Projector's power OFF using the POWER CMD DATA?", "section": 6, "style": "standard", "source": ""}
+{"q_idx": 46, "question": "What does the command return after successfully turning the Projector's power OFF?", "section": 7, "style": "standard", "source": ""}
+{"q_idx": 47, "question": "What does an AudioOutTypeInfoList with a value of 0 indicate for audio output device type?", "section": 8, "style": "standard", "source": ""}
+{"q_idx": 48, "question": "How do I use dynamic naming with configuration variables in Integration Designer 9.0?", "section": 9, "style": "standard", "source": ""}
+{"q_idx": 49, "question": "What does the 'role' parameter return in the API Specification, and what are its possible values?", "section": 10, "style": "standard", "source": ""}

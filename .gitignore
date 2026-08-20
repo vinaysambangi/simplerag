@@ -1,0 +1,32 @@
+# Secrets — never commit real credentials
+.env
+.env.local
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / frontend
+node_modules/
+ui/dist/
+npm-debug.log*
+
+# Runtime data
+data/chat/
+data/qa_dataset.jsonl
+data/*_qa.jsonl
+*.db
+*.sqlite3
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
