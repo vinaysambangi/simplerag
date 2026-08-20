@@ -265,7 +265,13 @@ class VectorStore:
                 with_payload=True,
                 with_vectors=False,
             )
-            points = response.points or []
+            # Different qdrant-client versions return either a ScrollResult
+            # object or a plain (points, next_page_offset) tuple.
+            if isinstance(response, tuple):
+                points, next_offset = response
+            else:
+                points = getattr(response, "points", None) or []
+                next_offset = getattr(response, "next_page_offset", None)
             for p in points:
                 payload = getattr(p, "payload", {}) or {}
                 docs.append(
@@ -277,9 +283,9 @@ class VectorStore:
                         },
                     }
                 )
-            if not points or response.next_page_offset is None:
+            if not points or next_offset is None:
                 break
-            offset = response.next_page_offset
+            offset = next_offset
         return docs
 
     def reset(self) -> None:

@@ -25,6 +25,9 @@ data/*_qa.jsonl
 *.db
 *.sqlite3
 
+# Logs
+*.log
+
 # IDE / OS
 .idea/
 .vscode/

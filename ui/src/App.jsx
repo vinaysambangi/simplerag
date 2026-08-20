@@ -46,10 +46,23 @@ export default function App() {
     await refreshSessions();
   };
 
-  const send = (content) => {
+  const send = async (content) => {
     if (streaming || !content.trim()) return;
     setStreaming(true);
     setLoading(true);
+
+    let sessionId = activeId;
+    try {
+      if (!sessionId) {
+        const session = await api.createSession();
+        sessionId = session.id;
+        await refreshSessions();
+      }
+    } catch (err) {
+      setStreaming(false);
+      setLoading(false);
+      return;
+    }
 
     const userMsg = {
       id: `local-user-${Date.now()}`,
@@ -67,7 +80,7 @@ export default function App() {
     };
     setMessages((prev) => [...prev, userMsg, assistantMsg]);
 
-    api.streamMessage(activeId, content, {
+    api.streamMessage(sessionId, content, {
       onSources: (sources, answerType) =>
         setMessages((prev) =>
           prev.map((m) =>
@@ -101,6 +114,7 @@ export default function App() {
         setStreaming(false);
         setLoading(false);
         refreshSessions();
+        if (sessionId !== activeId) setActiveId(sessionId);
         firstLoad.current = false;
       },
       onError: (err) => {
